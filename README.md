@@ -1,14 +1,36 @@
-# Hand_Gesture_Recognition
-This project focuses on developing an intelligent hand gesture–controlled brightness adjustment system using Python, OpenCV, and MediaPipe. The system aims to provide a seamless and touch-free way to control screen brightness by detecting and analyzing hand movements in real time through a webcam.
+# Hand Gesture Recognition System
 
-The project employs computer vision and machine learning–based hand tracking techniques to identify specific finger landmarks. MediaPipe, a powerful framework by Google, is used for accurate hand and finger detection. OpenCV handles real-time video capture and image processing, while the Screen Brightness Control (SBC) library allows direct manipulation of the system’s brightness levels.
+An AI-powered computer vision application that enables real-time screen brightness control using hand gestures. The project uses OpenCV and MediaPipe to detect hand landmarks and interpret finger movements through a webcam, providing a touch-free and interactive user experience.
 
-The workflow begins by initializing the webcam to capture live video frames. Each frame is processed to detect the position of the hand landmarks using MediaPipe’s Hands module. Once the hand is detected, the coordinates of the thumb tip (landmark 4) and index finger tip (landmark 8) are extracted. The distance between these two points is calculated using the Euclidean distance formula (hypot).
+## Features
 
-This distance acts as a control parameter — when the fingers move closer together, brightness decreases; when they move farther apart, brightness increases. To ensure smooth scaling, the system uses NumPy’s interpolation function to map the hand distance range (e.g., 15–220 pixels) to a brightness range (0–100%). The adjusted brightness value is then sent to the SBC library to update the screen brightness dynamically.
+* Real-time hand tracking and gesture recognition
+* Touchless screen brightness control
+* Accurate finger landmark detection using MediaPipe
+* Dynamic brightness adjustment based on finger distance
+* Live visual feedback with gesture visualization
+* Smooth and responsive user interaction
 
-The system also provides real-time visual feedback by drawing lines and circles between the thumb and index finger, helping users understand how their gestures are being interpreted. The application continues running until the user presses the “q” key to quit.
+## Tech Stack
 
-This project demonstrates the integration of computer vision, gesture recognition, and human-computer interaction (HCI) principles. It can be extended to control other system settings like volume or media playback. The solution is especially useful for accessibility, automation, and smart device control applications.
+* Python
+* OpenCV
+* MediaPipe
+* NumPy
+* Screen Brightness Control (SBC)
 
-By bridging vision-based interaction and real-time control, this project offers a modern, efficient, and user-friendly approach to system brightness management.
+## Working Principle
+
+The system captures live video through a webcam and detects hand landmarks using MediaPipe’s Hands module. The distance between the thumb tip and index finger tip is calculated and mapped to the system brightness range using interpolation techniques. As the finger distance changes, the screen brightness is adjusted dynamically in real time.
+
+## Use Cases
+
+* Touch-free system control
+* Human-Computer Interaction (HCI)
+* Smart automation systems
+* Accessibility-focused applications
+* Gesture-based device control
+
+## Project Goal
+
+The main objective of this project is to integrate computer vision and gesture recognition technologies to create an efficient, user-friendly, and contactless brightness control system for modern smart environments.
