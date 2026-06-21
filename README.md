@@ -162,8 +162,8 @@ screen-brightness-control
 ## 👤 Author
 
 **Chowdri Furkhan**
-Final Year B.E. — Artificial Intelligence & Machine Learning
-Vijaya Vittala Institute of Technology, Bengaluru
+
+Artificial Intelligence & Machine Learning
 
 [![GitHub](https://img.shields.io/badge/GitHub-Chowdri--Furkhan07-181717?style=flat&logo=github)](https://github.com/Chowdri-Furkhan07)
 
