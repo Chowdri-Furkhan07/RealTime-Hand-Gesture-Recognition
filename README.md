@@ -24,7 +24,7 @@ Using **MediaPipe's Hand Landmark Detection** and **OpenCV** for video processin
 - 👆 **21-point hand landmark tracking** via MediaPipe Hands
 - 📐 **Euclidean distance calculation** between thumb and index finger tips
 - 🔆 **Dynamic screen brightness mapping** using `numpy.interp()`
-- 🖼️ **Live visual feedback** — landmarks, connecting lines, and brightness level rendered on screen
+- 🖼️ **Live visual feedback** - landmarks, connecting lines, and brightness level rendered on screen
 - 🚫 **Zero physical contact** — fully touch-free interaction
 - 💻 **Cross-platform compatible** (Windows, macOS, Linux)
 
