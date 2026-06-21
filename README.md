@@ -141,8 +141,8 @@ screen-brightness-control
 ## 💡 Use Cases
 
 - ♿ **Accessibility** - hands-free control for users with motor impairments
-- 🏥 **Hygiene-sensitive environments** — hospitals, labs, food prep areas
-- 🎮 **HCI Research** — gesture-based UI prototyping
+- 🏥 **Hygiene-sensitive environments** - hospitals, labs, food prep areas
+- 🎮 **HCI Research** - gesture-based UI prototyping
 - 🤖 **Smart Home / IoT** — gesture integration with smart lighting systems
 - 📚 **Education** — demonstrates real-world CV + ML applications
 
