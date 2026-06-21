@@ -109,7 +109,7 @@ Launch Jupyter and open `Hand Gesture.ipynb`:
 jupyter notebook "Hand Gesture.ipynb"
 ```
 
-Run all cells — your webcam will activate and brightness control will begin in real time.
+Run all cells - your webcam will activate and brightness control will begin in real time.
 
 **To exit:** Press `q` in the OpenCV window.
 
@@ -140,7 +140,7 @@ screen-brightness-control
 
 ## 💡 Use Cases
 
-- ♿ **Accessibility** — hands-free control for users with motor impairments
+- ♿ **Accessibility** - hands-free control for users with motor impairments
 - 🏥 **Hygiene-sensitive environments** — hospitals, labs, food prep areas
 - 🎮 **HCI Research** — gesture-based UI prototyping
 - 🤖 **Smart Home / IoT** — gesture integration with smart lighting systems
