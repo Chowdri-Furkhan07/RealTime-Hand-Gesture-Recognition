@@ -1,6 +1,6 @@
-# 🖐️ RealTime Hand Gesture–Controlled Brightness Adjuster
+# 🖐️ RealTime Hand Gesture – Controlled Brightness Adjuster
 
-> A touchless Human-Computer Interaction (HCI) system that uses computer vision to detect hand landmarks in real time and dynamically adjusts screen brightness based on finger distance — no physical contact required.
+> A touchless Human-Computer Interaction (HCI) system that uses computer vision to detect hand landmarks in real time and dynamically adjusts screen brightness based on finger distance - no physical contact required.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=flat&logo=opencv)
