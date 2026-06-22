@@ -78,7 +78,9 @@ Visual overlays drawn on frame — landmarks, line, and brightness %
 ```
 RealTime-Hand-Gesture-Recognition/
 │
-├── Hand Gesture.ipynb       # Main notebook — full implementation
+├── app.py
+├── requirements.txt
+├── Hand Gesture.ipynb     # Main notebook - full implementation
 └── README.md
 ```
 
@@ -150,7 +152,7 @@ screen-brightness-control
 
 ## 🔮 Future Enhancements
 
-- [ ] Extend gesture vocabulary — volume control, media playback, scrolling
+- [ ] Extend gesture vocabulary - volume control, media playback, scrolling
 - [ ] Multi-hand support for simultaneous controls
 - [ ] GUI dashboard showing real-time brightness slider
 - [ ] Export gesture logs for behavioral analysis
