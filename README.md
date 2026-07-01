@@ -47,7 +47,7 @@ Distance mapped to brightness range [0, 100] using np.interp()
           ↓
 screen_brightness_control sets system brightness in real time
           ↓
-Visual overlays drawn on frame — landmarks, line, and brightness %
+Visual overlays drawn on frame - landmarks, line, and brightness %
 ```
 
 **Core Gesture:**
